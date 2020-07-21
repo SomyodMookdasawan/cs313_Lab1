@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: "Sarabun";
+    font-size: 22px;
+}
+.cshead {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lobster";
+    line-height: 1.5;
+    cursor: pointer;
+    color: black;
+    text-decoration-line: none;
+}
+span{
+    cursor: pointer;
+}
+nev{
+    padding: 1rem 0;
+}
+.nev-c{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Sarabun";
+}
+ul.menu{
+    display: flex;
+    height: 50px;
+    background: rgb(243, 184, 57);
+    align-items: center;
+    list-style: none;
+}
+ul.menu li{
+    margin-right: 10rem;
+}
+.cs{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "swap";
+    line-height: 5;
+    color: blue;
+}
+.cs1{
+    display: flex;
+    align-items: center;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    font-size: 17px;
+  }
+  
+  .container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .container img {vertical-align: middle;}
+  
+  .container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    line-height: 1.5;
+    padding: 20px;
+  }
+  .cs0{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "swap";
+    line-height: 1.5;
+    background-color: rgb(31, 137, 223);
+    height: 100px;
+}
+.cs00{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "swap";
+    line-height: 1.5;
+    background-color: rgb(31, 223, 63);
+    height: 100px;
+}
+.footer-top{
+    border-top: 1px solid #ccc;
+    background: #ddd;
+    color: #333;
+    height: 45px;
+}
+.ft-f{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
